@@ -2,10 +2,14 @@
 //
 
 #include "stdafx.h"
+#include "Rectangle.h"
+#include "Rectangle.cpp"
 
 
 int main()
 {
+	Rectangle rect();
+	//rect.setData();
     return 0;
 }
 
