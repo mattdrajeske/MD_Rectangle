@@ -3,13 +3,15 @@
 
 #include "stdafx.h"
 #include "Rectangle.h"
-#include "Rectangle.cpp"
+#include <iostream>
+//#include "Rectangle.cpp"
 
 
 int main()
 {
-	Rectangle rect();
-	//rect.setData();
+	Rectangle rect;
+	rect.setData();
+	rect.showData();
     return 0;
 }
 

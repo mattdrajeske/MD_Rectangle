@@ -1,11 +1,12 @@
 #pragma once
+//#include "stadfx.h"
 class Rectangle
 {
-	public:
+	private:
 		double length;
 		double width;
 	
-	private:
+	public:
 		Rectangle();
 		Rectangle(double, double);
 		void setData();
